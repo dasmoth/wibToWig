@@ -1,8 +1,10 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <cstdint>
 
 using namespace std;
+
 
 int main(int argc, char** argv) {
     if (argc != 3) {
@@ -28,7 +30,7 @@ int main(int argc, char** argv) {
     string name;
     int width;
     int count;
-    int offset;
+    uint64_t offset;
     string wibName;
     double lowerLimit;
     double dataRange;
